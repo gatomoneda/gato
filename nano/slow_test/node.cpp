@@ -2,6 +2,7 @@
 #include <nano/lib/threading.hpp>
 #include <nano/node/election.hpp>
 #include <nano/node/transport/udp.hpp>
+#include <nano/node/unchecked_map.hpp>
 #include <nano/test_common/network.hpp>
 #include <nano/test_common/system.hpp>
 #include <nano/test_common/testutil.hpp>
@@ -404,11 +405,11 @@ TEST (store, unchecked_load)
 	constexpr auto num_unchecked = 1000000;
 	for (auto i (0); i < num_unchecked; ++i)
 	{
-		auto transaction (node.store.tx_begin_write ());
-		node.store.unchecked.put (transaction, i, block);
+		node.unchecked.put (i, block);
 	}
+	node.unchecked.flush ();
 	auto transaction (node.store.tx_begin_read ());
-	ASSERT_EQ (num_unchecked, node.store.unchecked.count (transaction));
+	ASSERT_EQ (num_unchecked, node.unchecked.count (transaction));
 }
 
 TEST (store, vote_load)
