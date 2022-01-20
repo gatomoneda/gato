@@ -27,7 +27,7 @@ Gato is a digital payment protocol designed to be accessible and lightweight, wi
 * [Command Line Interface](https://docs.nano.org/commands/command-line-interface/)
 * [RPC Protocol](https://docs.nano.org/commands/rpc-protocol/)
 
-Other documentation details can be found at https://docs.nano.org.
+Other documentation details can be found (eventually) at https://gato.co.in.
 
 ---
 
