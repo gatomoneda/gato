@@ -1,4 +1,4 @@
-<p style="text-align:center;"><img src="/images/logo.svg" width"300px" height="auto" alt="Logo"></p>
+<p style="text-align:center;"><img src="https://gato.co.in/wp-content/uploads/2022/01/gatomoneda200x200.png" width"200px" height="auto" alt="Logo"></p>
 
 
 
@@ -13,9 +13,9 @@
 
 ---
 
-### What is Nano?
+### What is Gato?
 
-Nano is a digital payment protocol designed to be accessible and lightweight, with a focus on removing inefficiencies present in other cryptocurrencies. With ultrafast transactions and zero fees on a secure, green and decentralized network, this makes Nano ideal for everyday transactions.
+Gato is a digital payment protocol designed to be accessible and lightweight, with a focus on removing inefficiencies present in other cryptocurrencies. With ultrafast, private transactions and zero fees on a secure, green and decentralized network, this makes Gato ideal for everyday transactions.
 
 ---
 
@@ -33,7 +33,7 @@ Other documentation details can be found at https://docs.nano.org.
 
 ### Links & Resources
 
-* [Nano Website](https://nano.org)
+* [Gato Website](https://gato.co.in/)
 * [Documentation](https://docs.nano.org)
 * [Discord Chat](https://chat.nano.org/)
 * [Reddit](https://reddit.com/r/nanocurrency)
@@ -51,4 +51,4 @@ Please see the [contributors guide](https://docs.nano.org/node-implementation/co
 ### Contact us
 
 We want to hear about any trouble, success, delight, or pain you experience when
-using Nano. Let us know by [filing an issue](https://github.com/nanocurrency/nano-node/issues), joining us on [Reddit](https://reddit.com/r/nanocurrency), or joining us on [Discord](https://chat.nano.org/).
+using Nano. Let us know by [filing an issue](https://github.com/gatomoneda/gato/issues), joining us on [Reddit](https://reddit.com/r/gatomoneda), or joining us on [Discord](https://discord.com/channels/933538392828969011/933538441227014154).
